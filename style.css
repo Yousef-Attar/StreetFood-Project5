@@ -7,12 +7,13 @@ body{
 }
 
 header{
-    background-image: url('/images/header-img.jpeg');
-    height: 100px;
-    color: #fff;
+    background-image: url('https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 150px;
+    color: goldenrod;
     padding: 40px;
     background-size: cover;
     background-position: center;
+    border-radius: 3px;
 }
 main{
     margin: 10px;
