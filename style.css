@@ -207,7 +207,7 @@ display: flex;
     transition: background-color 0.3s;
   }
   .exit-btn{
-    margin-left: 80%;
+    margin-left: 90%;
     margin-bottom: 0.5em;
     background-color :#007bff ;
     border: none;
