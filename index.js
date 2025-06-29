@@ -134,16 +134,16 @@ function getOrder(id){
                 <h2>${order.name}</h2>
                 <button  id="${order.uid}" class="delete-btn" data-delete=${order.name}>remove</button>
                 <div class='quantity-flex'>
-                <button id='decreasing-${order.uid}' data-decreasing= ${order.uid }>-</button>
-                <input
-                 id="quantity-${order.uid}"
-                 class="quantity"
-                 value = 1 
-                 type="number"
-                 min='1' max='100'
-                 readonly
-                 >
-                <button id='increasing-${order.uid}' data-increasing = ${order.uid} >+</button>
+                    <button id='decreasing-${order.uid}' data-decreasing= ${order.uid }>-</button>
+                    <input
+                    id="quantity-${order.uid}"
+                    class="quantity"
+                    value = 1 
+                    type="number"
+                    min='1' max='100'
+                    readonly
+                    >
+                    <button id='increasing-${order.uid}' data-increasing = ${order.uid} >+</button>
                  </div>
                 <p class="auto-price" id=price-${order.uid}> ${order.price} </p>
             </div>

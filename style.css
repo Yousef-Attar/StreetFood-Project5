@@ -70,6 +70,9 @@ p{
 .add-btn:hover , .delete-btn:hover{
     cursor: pointer;
 }
+.add-btn:hover{
+    background-color: goldenrod;
+}
 .item-emj{
     font-size: 50px;
 }
@@ -120,6 +123,7 @@ display: flex;
     padding: 0px 2px;
     position: absolute;
     left: 10em;
+    margin-top: 0.5em;
 }
 .quantity-flex button{
     background-color: #007bff;
@@ -192,6 +196,11 @@ display: flex;
     cursor: pointer;
     transition: background-color 0.3s;
     margin: 5px;
+  }
+  .confirm-btn{
+    max-width: 350px;
+    margin-right: auto;
+    margin-left: auto;
   }
   .payment-order .pay-btn {
     display: block;
