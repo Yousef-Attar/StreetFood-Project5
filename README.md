@@ -70,12 +70,6 @@ Built independently by Yousef Attar as a frontend practice project focused on DO
 
 ---
 
-## 📸 Screenshot
-
-*(Insert a screenshot here if available, e.g., from your GitHub repo or local project)*
-
----
-
 ## 📝 License
 
 This project is for learning and portfolio purposes. Feel free to use or reference it with attribution.
